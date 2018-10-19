@@ -5,8 +5,6 @@
 
 
 FROM microsoft/iis as base
-#ENV ASPNETCORE_URLS "http://*:80"
-#EXPOSE 80
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop';"]
 
