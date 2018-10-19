@@ -4,6 +4,7 @@
     <TargetFramework>net472</TargetFramework>
     <DebugType>full</DebugType>
     <DockerTargetOS>Windows</DockerTargetOS>
+    <AspNetCoreHostingModel>outofprocess</AspNetCoreHostingModel>
   </PropertyGroup>
 
   <ItemGroup>
